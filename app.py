@@ -480,7 +480,7 @@ with st.sidebar:
         st.markdown("""
         - Streamlit: fastest path to MVP
         - Gemini: unique human narratives
-        - Hardcoded data: demo reliability
+        - Mock market data with API abstraction layer
         - PDF: fits existing agent workflow
         - Future: MLS API integration
         """)
