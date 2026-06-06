@@ -99,3 +99,10 @@ You can test the app with any of the 40 mock ZIP codes built into the fallback d
 | 33139 | Miami Beach, FL |
 | 60601 | Chicago, IL |
 | 98101 | Seattle, WA |
+
+
+## Deployed app
+
+I have deployed the app on streamlit community cloud. You can access it here:
+
+https://snaprepor-vuheeu2jfsv8fna84xwnrk.streamlit.app/
