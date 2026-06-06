@@ -1,12 +1,12 @@
-# SnapReport by Snaphomz 🏠💻
+# SnapReport by Snaphomz 🏠
 
-SnapReport generates a beautifully branded, AI-written real estate market report PDF for any ZIP code in under 90 seconds. 
+SnapReport generates an AI-written real estate market report PDF for any ZIP code in under 90 seconds. 
 
-Here is a super detailed breakdown of exactly what I built, how the architecture evolved, the challenges I ran into, and where I plan to take this project next!
+Here is a detailed breakdown of exactly what I built, how the architecture evolved, the challenges I ran into, and where I plan to take this project next!
 
 ---
 
-## 🛠️ What I Actually Built (The Journey)
+## What I Have Built 
 
 ### 1. The Streamlit Foundation & Multi-ZIP Support
 I started by using **Streamlit** because it's the fastest way to get a working UI up and running without wrestling with frontend frameworks. Originally, the app only took one ZIP code. I refactored the entire flow so agents can input a comma-separated list of ZIP codes (like `90210, 10001, 75201`). The app now loops through each ZIP, fetching data and generating a unique section for every single one.
@@ -44,11 +44,11 @@ I realized hardcoding API keys is a terrible practice. I integrated `python-dote
 
 ---
 
-## 🚀 Future Improvements (What's Next)
+## 🚀 Future Improvements 
 
-I've thought a lot about where this goes from here. Here is my roadmap for V2:
+Here are some imrovements i thought of implementing:
 
-1. **Fixing the Live APIs (Priority #1)**
+1. **Fixing the Live APIs **
    * **SendGrid**: I need to log into the SendGrid console, verify my sender identity (e.g., `ervarishitha@gmail.com`), generate a proper `SG.xxx` API key, and swap it into the `.env` file.
    * **RealEstateAPI**: I need to dig into their documentation, find the exact URL for the `/v2/PropertySearch` endpoint, and write an aggregation script that calculates the median price from the raw property data they return.
 
